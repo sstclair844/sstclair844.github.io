@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#h1 {
+    font-family:fantasy;
+    font-size: 40px;
+}
+#p1 {
+    color:#dc319d;
+}
+
+#s1 {
+    background-color:yellow;
+}
+
+#p2 {
+    background-color:#dc319d;
+    color:white;
+}
