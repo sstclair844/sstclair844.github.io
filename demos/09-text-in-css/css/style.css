@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#s1 {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#s2 {
+    font-style: italic;
+}
+
+#p1 {
+    font-size: 16px;
+    text-align: center;
+}
+
+#img1 {
+    text-align: center;
+}
