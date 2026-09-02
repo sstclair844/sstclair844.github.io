@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#p1 {
+    color: green;
+}
+
+.shadowed {
+    background: pink;
+    margin: 24px;
+    padding: 18px;
+    box-shadow: 4px 10px 10px magenta;        
+}
+
+p {
+    font-family:cursive;
+    color: red;
+}
