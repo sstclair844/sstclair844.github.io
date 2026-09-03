@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+p {
+    background-color: pink;
+    width: 200px;
+}
+
+span {
+    background-color: aqua;
+    display: block
+}
+
+div {
+    background-color: cornflowerblue;
+    display: inline;
+}
+
+.banana {
+    background-color: lightblue;
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+    margin: 12px;
+    padding: 12px;
+}
