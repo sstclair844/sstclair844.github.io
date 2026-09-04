@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 4px dashed red;
+    padding: 20px;
+    width: 300px;
+}
+
+.p3 {
+    padding-left: 55px;
+    padding-right: 50px;
+    border: 8px solid darkmagenta;
+    margin-top: 50px;
+    width: 400px;
+    border-radius: 30px;
+    color:darkmagenta;
+    background-color: lightpink;
+    
+}
+
+.p1 {
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 10px dotted green;
+    border-top: 10px solid green;
+    margin: bottom 30px; 
+    width: 600px;
+    color: darkgreen;
+    background-color: lightgreen;
+}
+
+.p2 {
+    color: darkred;
+    border-left: 4px solid red;
+    border-right: 4px solid red;
+    background-color:pink
+}
