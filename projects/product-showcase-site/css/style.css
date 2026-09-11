@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    padding: 5px;
+}
+
+.pink {
+    background-color: magenta;   
+}
+
+.white {
+    background: linear-gradient(magenta, blue, blue);
+}
+
+.black {
+    background: linear-gradient(blue, purple, purple);
+}
+
+.yellow {
+    background: linear-gradient(purple, darkorange, darkorange);
+}
+
+.green {
+    background: linear-gradient(darkorange, green, green);
+}
+
+.d1 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 24px;
+    
+}
+.d2,
+.d3,
+.d4,
+.d5 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+
+#img1 {
+    width: 70%;
+    padding-bottom: 50px;
+}
+
+#img2,
+#img3,
+#img4,
+#img5 {
+    width: 40%;
+    padding-left: 50px;
+}
+
+h1 {
+    font-family: "Pirata One", system-ui;
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 0px; 
+    font-size: 75px;
+    color: black;
+    text-decoration: underline;
+}
+h2 {
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    font-family: "Pirata One", system-ui;
+    font-size: 50px;
+}
+
+#black {
+    margin-bottom: 0px;
+}
+
+hr {
+    margin-bottom: 0px;
+}
+#b1 {
+    margin-top: 0px;
+    margin-left: 60px;
+}
+
+#white {
+    margin-bottom: 0px;
+}
+
+#w1 {
+    margin-top: 0px;
+    margin-left: 80px;
+}
+
+h3 {
+    font-family: "Pirata One", system-ui;
+    font-size: 24px;
+    text-align: center;
+}
+
+p {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 55px;
+    padding-right: 100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+.primary {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    margin-right: 12px;
+    margin-left: 15px;
+}
+
+.secondary {
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    color: black;
+
+}
+
+.content {
+    padding-top: 0px;
+    margin-top: 0px;
+    display: inline-block;
+    margin-left: 60px;
+}
