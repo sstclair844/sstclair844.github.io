@@ -59,6 +59,16 @@ p {
     margin-bottom: 36px;
 }
 
+.time p:first-child {
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.time p:last-child {
+    border-left: 0px;
+    border-right: 0px;
+}
+
 .media-text a {
     color: #4d2d2d;
     font-size: 14px;
