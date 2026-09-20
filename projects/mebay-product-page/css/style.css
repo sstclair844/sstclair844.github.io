@@ -149,6 +149,7 @@ label {
 input {
     border-radius: 10px;
     border: 1px solid grey;
+    padding: 16px;
 }
 #message {
     color: black;
