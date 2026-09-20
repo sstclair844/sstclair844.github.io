@@ -14,7 +14,6 @@ body {
 #navbar-container {
     background-color: black;
     width: 100%;
-    min-width: 768px;
     display: flex;
 }
 .navbar {
@@ -23,14 +22,13 @@ body {
     align-items: center;
     color: white;
     padding: 18px;
-    max-width: 1200px;
-    min-width: 768px;
     width: 100%;
     margin: auto;
+    max-width: 1200px;
+    min-width: 768px;
 }
 
 #logo {
-    margin-right: 250px;
     font-size: 36px;
     text-decoration: none;
 }
@@ -48,16 +46,15 @@ body {
     font-weight: bold;
     min-width: 150px;
     text-align: center;
-    margin-left: 300px;
     text-decoration: none;
 }   
 
 #main-column {
     display: flex;
-    min-width: 768px;
-    max-width: 1200px;
     margin: auto;
     width: 100%;
+    max-width: 1200px;
+    min-width: 768px;
 
 }
 
