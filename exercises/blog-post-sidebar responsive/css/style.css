@@ -9,13 +9,13 @@ body {
     font-family: sans-serif;
     background: 
         linear-gradient(rgb(248, 248, 201), darkorange, red, black);
-    padding: 15px;
 }
 
 #navbar-container {
     background-color: black;
     width: 100%;
     min-width: 768px;
+    display: flex;
 }
 .navbar {
     display:flex;
@@ -79,10 +79,12 @@ body {
     flex: 1;
     margin: 0px auto;
     margin-bottom: 100px;
+    width: 100%;
 }
 
 #sidebar-column {
-    width: 300px;
+    min-width: 300px;
+    max-width: 300px;
     height: 850px;
     padding: 12px;
     padding-top: 5px;
@@ -189,4 +191,9 @@ p {
 
 #bottom-nav a {
     color: white;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
