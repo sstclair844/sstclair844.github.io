@@ -20,11 +20,10 @@ body {
     color: white;
     padding: 18px;
     margin: auto;
-    max-width: 1200px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+    max-width: 1200px;
 }
 
 #logo {
@@ -64,6 +63,7 @@ body {
     display: flex;
     justify-content: center;
     align-content: center;
+    width: 100%;
 
 }
 .blog {
@@ -92,7 +92,7 @@ body {
 
 #sidebar-column h2 {
     background-color: black;
-    padding: 12px;
+    padding: 16px;
     font-size: 16px;
     text-align: center;
     margin: 0px;
