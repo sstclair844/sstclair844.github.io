@@ -9,6 +9,7 @@ body {
     font-family: sans-serif;
     background: 
         linear-gradient(rgb(248, 248, 201), darkorange, red, black);
+    padding: 15px;
 }
 
 #navbar-container {
