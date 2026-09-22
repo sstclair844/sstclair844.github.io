@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url("../images/placid-waters.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+#hero h1 {
+   font-size: 150px;
+   margin-bottom: 0px;
+   margin-top: 75px;
+}
+
+#hero h3 {
+    font-size: 80px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#hero a {
+    padding: 20px 60px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}

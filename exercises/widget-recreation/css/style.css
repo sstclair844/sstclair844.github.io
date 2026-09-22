@@ -7,8 +7,12 @@ body {
     font-family: sans-serif;
 }
 
+#outer {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+}
 #music {
-    margin: 24px;
     display: inline-block;
 }
 
