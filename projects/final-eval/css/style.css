@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/fireworks.jpg);
+    background-size: cover;
+}
+
+#layout {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding-top: 50px;
+    border: 12px solid white;
+    background-image: url(../images/fireworks-4.jpg);
+}
+
+#top {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#top h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #e2d410;
+    text-decoration: underline;
+}
+
+#top h2 {
+    font-size: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Alfa Slab One", serif;
+    color: #e2d410;
+}
+
+#top h1 {
+    font-size: 60px;
+    margin-top: 10px;
+    color: white;
+}
+
+#images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin-bottom: 50px;
+}
+
+.images img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    
+}
+
+#images-container h3 {
+    color: white;
+    font-size: 36px;
+}
+
+#vs h2 {
+    font-size: 75px;
+    text-decoration: underline;
+    color: white;
+    font-family: "Alfa Slab One", serif;
+}
+
+.images h3 {
+    text-align: center;
+}
+
+#middle {
+    text-align: center;
+}
+
+#middle h2 {
+    font-size: 70px;
+    color: #e2d410;
+    font-family: "Alfa Slab One", serif;
+}
+
+#middle h3 {
+    font-size: 36px;
+    color: white;
+}
+
+#middle h4 {
+    font-size: 24px;
+    color: white;
+}
+
+#buttons {
+    display: block;
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 24px;
+}
+
+#primary {
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    padding: 24px 40px;
+    border-radius: 0px;
+    font-size: 24px;
+    margin-right: 36px;
+}
+
+#secondary {
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    padding: 24px 40px;
+    border-radius: 0px;
+    font-size: 24px;
+    margin-left: 36px;
+}
+
+#bottom {
+    text-align: center;
+    margin: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 24px;
+}
