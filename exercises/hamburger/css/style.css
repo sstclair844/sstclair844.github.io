@@ -124,46 +124,51 @@ body {
 }
 
 @media screen and (max-width: 1260px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-    
     #hero h1 {
         font-size: 120px;
     }
 }
 
 @media screen and (max-width: 1100px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-    
     #hero h1 {
         font-size: 90px;
     }
 }
 
-@media screen and (max-width: 850px) {
-    #hero {
+@media screen and (max-width: 950px) {
+    #hero h1 {
+        font-size: 80px;
+    }
+
+    #top {
         flex-direction: column;
         align-items: center;
     }
 
-    #hero h1 {
-        font-size: 80px;
+    .navbar a {
+        flex-direction: column;
+        padding: 15px;
+        margin-top: 12px;
+    }
+
+    .navbar .cta-button {
+        margin: 24px;
     }
 }
 
 @media screen and (max-width: 740px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-
     #hero h1 {
         font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    .horizontal img {
+        width: 100%;
     }
 
     .hamburger {
@@ -208,66 +213,9 @@ body {
         display: flex;
     }
 }
-
-@media screen and (max-width: 650px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    #hero h1 {
-        font-size: 60px;
-    }
-
-    #top {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar a{
-        flex-wrap: wrap;
-        padding: 15px;
-    }
-
-    .navbar .cta-button {
-        margin: 12px;
-    }
-
-    .horizontal img {
-        width: 100%;
-    }
-}
 @media screen and (max-width: 570px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-    
     #hero h1 {
         font-size: 40px;
-    }
-
-    #top {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .navbar a {
-        flex-wrap: wrap;
-        padding: 15px;
-    }
-
-    .navbar .cta-button {
-        margin: 12px;
-    }
-
-    .horizontal img {
-        width: 100%;
     }
 
     #brand-logo img {
@@ -276,11 +224,6 @@ body {
 }
 
 @media screen and (max-width: 400px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-
     #hero h1 {
         font-size: 36px;
     }

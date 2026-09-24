@@ -132,11 +132,6 @@ body {
 }
 
 @media screen and (max-width: 850px) {
-    #hero {
-        flex-direction: column;
-        align-items: center;
-    }
-
     #hero h1 {
         font-size: 80px;
     }
@@ -175,7 +170,7 @@ body {
     #hero h1 {
         font-size: 40px;
     }
-    
+
     #brand-logo img {
         width: 75%;
     }
