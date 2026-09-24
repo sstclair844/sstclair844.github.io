@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #073007;
+}
+
+#navbar-container {
+    background-color: #073007;
+}
+
+.navbar a {
+    color: white;
+    padding-right: 40px;
+}
+
+#logo {
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.navbar .cta-button {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    text-decoration: none;
+}   
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 12px 0px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+#hero {
+    background-image: url("../images/header.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+    color: #073007;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+#hero h1 {
+    font-size: 145px;
+    margin-bottom: 0px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 24px;
+}
+
+#hero h3 {
+    font-size: 80px;
+    margin-top: 0px;
+}
+#layout {
+    max-width: 1300px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 24px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#layout h3 {
+    font-size: 48px;
+    margin-top: 24px;
+    color: #073007;
+}
+
+.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 24px;
+    border: 10px solid #073007;
+    margin-bottom: 50px;
+}
+
+.horizontal img {
+    height: 250px;
+    flex: 1;
+    object-fit: cover;
+}
+
+#brand-logo img {
+    margin-bottom: 0px;
+}
+
+#brand-logo h2 {
+    margin-top: 0px;
+    padding-left: 70px;
+}
+
+@media screen and (max-width: 1400px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero h1 {
+        font-size: 140px;
+    }
+}
+
+@media screen and (max-width: 1260px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero h1 {
+        font-size: 120px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero h1 {
+        font-size: 90px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    #top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .navbar .cta-button {
+        margin: 12px;
+    }
+
+    .horizontal img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 570px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #hero h1 {
+        font-size: 40px;
+    }
+
+    #top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .navbar .cta-button {
+        margin: 12px;
+    }
+
+    .horizontal img {
+        width: 100%;
+    }
+
+    #brand-logo img {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #hero h1 {
+        font-size: 36px;
+    }
+}
