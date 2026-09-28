@@ -8,7 +8,8 @@ body {
     background-color: #073007;
 }
 
-.menu-toggle, .hamburger {
+.menu-toggle,
+.hamburger {
     display: none;
 }
 
@@ -198,7 +199,7 @@ body {
         left: 0;
         width: 100%;
         display: none;
-        background-color:#073007;
+        background-color: #073007;
         transform: translateY(300%);
         transition: transform 0.3s ease-in-out;
         z-index: 10;
