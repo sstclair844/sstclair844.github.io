@@ -123,6 +123,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+#projects {
+    font-size: 60px;
+    padding: 50px;
+}   
+
 h3 {
     font-family: "Abril Fatface", serif;
     color: #b08a59;
@@ -197,6 +202,7 @@ h4 {
     margin: 0px;
     padding-bottom: 0px;  
     text-decoration: underline;
+    padding: 12px;
 }
 
 .ads {
@@ -211,6 +217,22 @@ h4 {
     width: 200px;
     height: 300px;
     margin: 18px;
+}
+
+#artboard-1 {
+    margin-top: 10px;
+    width: 850px;
+}
+
+.print-web {
+    columns: 2 auto;
+    gap: 24px;
+    width: 900px;
+}
+
+.print-web img {
+    width: 100%;
+    padding: 10px;
 }
 
 #bottom-nav a {
@@ -249,6 +271,10 @@ h4 {
         justify-content: center;
     }
 
+    .print-web {
+        grid: 1fr;
+    }
+
     #about-me .portrait {
         width: 75%;
     }
@@ -265,7 +291,8 @@ h4 {
 
 @media screen and (max-width: 925px) {
     .posters img,
-    .books img {
+    .books img,
+    .print-web {
         width: 75%;
     }
 
@@ -329,7 +356,6 @@ h4 {
     .ads {
         width: 100%;
     }
-}
 
     #hero img {
         width: 100%;
