@@ -69,7 +69,7 @@ body {
     font-size: 36px;
     font-family: "Abril Fatface", serif;
     color: #b08a59;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 #about-me {
@@ -80,19 +80,23 @@ body {
 }
 
 #about-me .paragraph {
-    padding: 64px 100px;
+    flex: 5;
+    border: 2px solid #b08a59;
     margin: 100px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+#hello {
+    padding: 36px 100px;
     text-align: center;
     font-family: "Wire One", sans-serif;
     color: #b08a59;
     font-size: 18px;
-    flex: 5;
-    border: 2px solid #b08a59;
-    margin-top: 20px;
 }
 
 #about-me .portrait {
-    flex: 6;
+    flex: 4;
 }
 
 .portrait img {
@@ -221,9 +225,22 @@ h4 {
         width: 75%;
     }
 
-}
+    .portrait img {
+        margin: 0px;
+        width: 100%;
+    }
 
-@media screen and (max-width: 760px) {
+    #layout p {
+        padding: 20px;
+    }
+
+    #hello {
+        padding: 20px;
+    }
+
+    h5 {
+        margin-top: 0px;
+    }
 }
 
 @media screen and (max-width: 670px) {
@@ -233,6 +250,16 @@ h4 {
     #logo {
         width: 75%;
         flex-direction: column;
+    }
+
+    #process,
+    #about-me p {
+        margin: 0px;
+        flex: 0;
+    }
+
+    #about-me img {
+        margin: 0px;
     }
 }
 
