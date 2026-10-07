@@ -49,7 +49,7 @@ body {
     padding: 14px 40px;
     text-decoration: none;
     background-color: #b08a59;
-    color: black;
+    color: #471113;
     font-size: 24px;
     font-weight: bold;
     margin: 50px 40px;
@@ -62,13 +62,13 @@ body {
     margin: 10px auto;
     text-align: center;
     padding: 24px;
-    background-color: #efe9e0
+    background-color: #efe9e0;
 }
 
 #layout h5 {
     font-size: 36px;
     font-family: "Abril Fatface", serif;
-    color: #b08a59;
+    color: #471113;
     margin-bottom: 0px;
 }
 
@@ -80,7 +80,6 @@ body {
 }
 
 #about-me .paragraph {
-    flex: 5;
     border: 2px solid #b08a59;
     margin: 100px;
     margin-top: 20px;
@@ -91,12 +90,12 @@ body {
     padding: 36px 100px;
     text-align: center;
     font-family: "Wire One", sans-serif;
-    color: #b08a59;
+    color: #471113;
     font-size: 18px;
 }
 
 #about-me .portrait {
-    flex: 4;
+    width: 200%;
 }
 
 .portrait img {
@@ -112,6 +111,7 @@ body {
     margin: 24px 100px;
     padding: 50px 100px;
     font-size: 18px;
+    color: #471113;
 }
 h2 {
     font-family: "Abril Fatface", serif;
@@ -133,7 +133,7 @@ h3 {
 h4 {
     font-size: 24px;
     font-family: "Abril Fatface", serif;
-    color: #b08a59;
+    color: #471113;
     margin: 0px;
     padding-bottom: 0px;  
     text-decoration: underline;
@@ -149,8 +149,8 @@ h4 {
 
 .campaign img {
     object-fit: cover;
-    max-width: 350px;
-    margin: 18px;
+    width: 200px;
+    margin: 8px;
 }
 
 .posters {
@@ -162,8 +162,8 @@ h4 {
 
 .posters img {
     object-fit: cover;
-    width: 350px;
-    margin: 18px;
+    width: 400px;
+    margin: 20px;
 }
 
 .books {
@@ -175,7 +175,38 @@ h4 {
 
 .books img {
     object-fit: cover;
-    width: 350px;
+    width: 400px;
+    margin: 18px;
+}
+
+#layout-2 {
+    max-width: 1200px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 24px;
+    background-color: #600518;
+}
+
+#layout-2 h4 {
+    font-size: 24px;
+    font-family: "Abril Fatface", serif;
+    color: #b08a59;
+    margin: 0px;
+    padding-bottom: 0px;  
+    text-decoration: underline;
+}
+
+.ads {
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.ads img {
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
     margin: 18px;
 }
 
@@ -206,22 +237,16 @@ h4 {
     .anchors,
     .portrait,
     #layout,
+    #layout-2,
     #about-me,
-    #process {
+    #process,
+    .paragraph {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .anchors a {
-        margin: 12px;
-    }
-}
-
-@media screen and (max-width: 925px) {
-    .campaign img,
-    .posters img,
-    .books img {
+    #about-me .portrait {
         width: 75%;
     }
 
@@ -230,12 +255,36 @@ h4 {
         width: 100%;
     }
 
+    .anchors a {
+        margin: 14px;
+    }
+}
+
+@media screen and (max-width: 925px) {
+    .posters img,
+    .books img {
+        width: 75%;
+    }
+
+    .ads img {
+        height: auto;
+    }
+
+    .portrait img {
+        margin: 0px;
+        width: 100%;
+    }
+
+    #about-me .portrait {
+        width: 100%;
+    }
+
     #layout p {
         padding: 20px;
     }
 
-    #hello {
-        padding: 20px;
+    #about-me .paragraph {
+        margin: 0px;
     }
 
     h5 {
@@ -244,16 +293,20 @@ h4 {
 }
 
 @media screen and (max-width: 670px) {
-    .campaign img,
     .posters img,
     .books img,
-    #logo {
+    #logo,
+    .ads img {
         width: 75%;
         flex-direction: column;
     }
 
-    #process,
-    #about-me p {
+    .campaign img {
+        width: 75%;
+        flex-direction: column;
+    }
+
+    #process {
         margin: 0px;
         flex: 0;
     }
@@ -267,18 +320,13 @@ h4 {
 }
 
 @media screen and (max-width: 500px) {
-    #layout,
-    #hero {
-        margin: 12px;
-    }
-}
-
-@media screen and (max-width: 425px) {
     .campaign,
     .posters,
-    .books {
-        width: 75%;
+    .books,
+    .ads {
+        width: 100%;
     }
+}
 
     #hero img {
         width: 100%;
