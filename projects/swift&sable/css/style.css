@@ -269,13 +269,13 @@ h4 {
     margin: 50px 20px;
 }
 
-#bottom-nav a {
+.return a {
     display: flex;
     justify-content: center;
     text-decoration: none;
     padding-top: 50px;
     padding-bottom: 50px;
-    font-family: "Gajraj One", sans-serif;
+    font-family: "Abril Fatface", serif;
     color: red;
     font-size: 24px;
 }
