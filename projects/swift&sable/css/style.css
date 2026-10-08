@@ -162,6 +162,7 @@ h4 {
 }
 
 .posters {
+    display: flex;
     display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
@@ -193,6 +194,8 @@ h4 {
     text-align: center;
     padding: 24px;
     background-color: #600518;
+    display: flex;
+    flex-direction: column;
 }
 
 #layout-2 h4 {
@@ -206,7 +209,6 @@ h4 {
 }
 
 .ads {
-    display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
     margin-top: 10px;
@@ -227,7 +229,6 @@ h4 {
 .print-web {
     columns: 2 auto;
     gap: 24px;
-    width: 900px;
 }
 
 .print-web img {
@@ -254,9 +255,6 @@ h4 {
     }
 }
 
-@media screen and (max-width: 1050px) {
-}
-
 @media screen and (max-width: 975px) {
     #hero,
     .anchors,
@@ -265,15 +263,12 @@ h4 {
     #layout-2,
     #about-me,
     #process,
-    .paragraph {
+    .paragraph,
+    .print-web {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }
-
-    .print-web {
-        grid: 1fr;
-    }
+    }   
 
     #about-me .portrait {
         width: 75%;
@@ -298,6 +293,7 @@ h4 {
 
     .ads img {
         height: auto;
+        flex-direction: column;
     }
 
     .portrait img {
@@ -325,8 +321,7 @@ h4 {
 @media screen and (max-width: 670px) {
     .posters img,
     .books img,
-    #logo,
-    .ads img {
+    #logo {
         width: 75%;
         flex-direction: column;
     }
