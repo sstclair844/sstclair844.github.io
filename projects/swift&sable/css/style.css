@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-</style>
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -82,16 +82,28 @@ body {
     border: 2px solid #b08a59;
     margin-right: 100px;
     margin-top: 20px;
-    align-items: center;
+    align-items: top;
+    padding-bottom: 20px;
 }
 
 #hello {
-    padding: 36px 50px;
+    padding: 14px 50px;
     text-align: center;
     font-family: "Wire One", sans-serif;
     color: #471113;
     font-size: 18px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.paragraph a {
+    color: #471113;
+    font-family: "Abril Fatface", serif;
+    font-size: 36px;
+}
+
+.paragraph h5 {
+    margin-top: 0px;
+    padding-top: 36px;
 }
 
 #about-me .portrait {
@@ -229,6 +241,7 @@ h4 {
 .print-web {
     columns: 2 auto;
     gap: 24px;
+    max-width: 1150px;
 }
 
 .print-web img {
@@ -252,6 +265,13 @@ h4 {
         margin: auto;
         align-items: center;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width:1250px) {
+    .ads img {
+        width: 200px;
+        height: 300px;
     }
 }
 
@@ -282,9 +302,13 @@ h4 {
     .anchors a {
         margin: 14px;
     }
+
+    #about-me .paragraph {
+        margin-left: 100px;
+    }
 }
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 950px) {
     .posters img,
     .books img,
     .print-web {
@@ -303,7 +327,7 @@ h4 {
     }
 
     #about-me .portrait {
-        width: 100%;
+        width: 50%;
     }
 
     #layout p {
@@ -311,7 +335,7 @@ h4 {
     }
 
     #about-me .paragraph {
-        margin: 0px;
+        margin: 50px 100px;
     }
 
     h5 {
@@ -339,6 +363,17 @@ h4 {
 
     #about-me img {
         margin: 0px;
+    }
+
+    #about-me .paragraph {
+        margin: 50px 0px;
+    }
+
+    .print-web {
+        columns: 1;
+        width: 75%;
+        margin-right: 20px;
+
     }
 }
 
