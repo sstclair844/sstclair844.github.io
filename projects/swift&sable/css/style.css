@@ -216,9 +216,9 @@ h4 {
 
 .ads img {
     object-fit: cover;
-    width: 200px;
-    height: 300px;
-    margin: 18px;
+    width: 250px;
+    height: 350px;
+    margin: 20px;
 }
 
 #artboard-1 {
@@ -294,6 +294,7 @@ h4 {
     .ads img {
         height: auto;
         flex-direction: column;
+        width: 75%;
     }
 
     .portrait img {
