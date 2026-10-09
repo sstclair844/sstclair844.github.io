@@ -15,6 +15,7 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 #hero {
     background-image: url("../images/background.png");
     height: 650px;
@@ -90,7 +91,6 @@ body {
 #hello {
     padding: 14px 50px;
     text-align: center;
-    font-family: "Wire One", sans-serif;
     color: #471113;
     font-size: 18px;
     margin-top: 5px;
@@ -276,7 +276,7 @@ h4 {
     padding-top: 50px;
     padding-bottom: 50px;
     font-family: "Abril Fatface", serif;
-    color: red;
+    color: #b08a59;
     font-size: 24px;
 }
 
@@ -312,7 +312,7 @@ h4 {
     }   
 
     #about-me .portrait {
-        width: 75%;
+        width: 100%;
     }
 
     .portrait img {
