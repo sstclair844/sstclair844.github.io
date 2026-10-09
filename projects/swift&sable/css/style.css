@@ -8,7 +8,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #600518;
+    background-color: #471113;
 }
 
 #main-body {
@@ -17,19 +17,19 @@ body {
 }
 
 #hero {
-    background-image: url("../images/background.png");
-    height: 650px;
+    background-image: url("../images/darker-hero.svg");
+    height: 400px;
     background-size: cover;
     background-position: center center;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
     text-align: center;
 }
 
 #hero img {
-    width: 400px;
-    position: center;
+    width: 300px;
+    padding-top: 30px;
 }
 
 #hero h3 {
@@ -37,7 +37,7 @@ body {
     margin-right: 5px;
     font-family: "Abril Fatface", serif;
     color: #b08a59;
-    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .anchors {
@@ -47,7 +47,7 @@ body {
 
 .anchors a {
     display: inline-block;
-    padding: 14px 40px;
+    padding: 8px 40px;
     text-decoration: none;
     background-color: #b08a59;
     color: #471113;
@@ -109,7 +109,7 @@ body {
 
 #about-me .portrait {
     width: 200%;
-    background-color: #600518;
+    background-color: #471113;
     padding: 25px 30px;
     padding-bottom: 10px;
     margin-top: 20px;
@@ -148,7 +148,7 @@ h3 {
     font-size: 48px;
     margin-bottom: 70px;
     margin-top: 70px;
-    background-color: #600518;
+    background-color: #471113;
     padding: 10px;
 }
 
@@ -208,7 +208,7 @@ h4 {
     margin: 10px auto;
     text-align: center;
     padding: 24px;
-    background-color: #600518;
+    background-color: #471113;
     display: flex;
     flex-direction: column;
 }
