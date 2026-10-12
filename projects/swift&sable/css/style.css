@@ -372,7 +372,7 @@ video {
     .ads img {
         height: auto;
         flex-direction: column;
-        width: 75%;
+        
     }
 
     video {
@@ -417,7 +417,7 @@ video {
     }
 
     #bottom-logo {
-        width: 150%;
+        width: 10%;
         padding: 10px;
         margin: 10px;
     }
@@ -439,24 +439,18 @@ video {
     #about-me .paragraph {
         margin: 50px 0px;
     }
-
-    .print-web {
-        columns: 1;
-        width: 70%;
-        margin-right: 20px;
-
-    }
 }
 
 @media screen and (max-width: 500px) {
     .campaign,
     .posters,
     .books,
-    .ads
-    #sites {
+    #sites,
+    .ads,
+    .print-web,
+    #web {
         columns: 1;
-        width: 80%;
-        
+        width: 50%;
     }
 
     .books {
