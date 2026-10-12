@@ -333,7 +333,9 @@ video {
     .paragraph,
     .print-web,
     #sites,
-    #video {
+    #video,
+    .ads,
+    #web {
         flex-direction: column;
         align-items: center;
         justify-content: center;
@@ -363,10 +365,9 @@ video {
 
 @media screen and (max-width: 950px) {
     .posters img,
-    .books img,
-    .print-web {
+    .books img {
         width: 75%;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .ads img {
@@ -417,9 +418,11 @@ video {
     }
 
     #bottom-logo {
-        width: 10%;
-        padding: 10px;
-        margin: 10px;
+        width: 100%;
+    }
+
+    #bottom-logo img {
+        width: 110%;
     }
 
     .campaign img {
@@ -444,13 +447,32 @@ video {
 @media screen and (max-width: 500px) {
     .campaign,
     .posters,
-    .books,
-    #sites,
-    .ads,
-    .print-web,
-    #web {
+    .books {
         columns: 1;
+        width: 90%;
+    }
+
+    #web {
         width: 50%;
+        columns: 1;
+    }
+
+    #web img {
+        width: 50%;
+    }
+
+    video {
+        width: 80%;
+    }
+
+    .ads {
+        Width: 80%;
+        
+    }
+
+    .print-web {
+        columns: 1;
+        width: 70%;
     }
 
     .books {
@@ -466,7 +488,7 @@ video {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     #projects {
@@ -474,7 +496,7 @@ video {
     }
 
     #sites img {
-        width: 75%;
+        width: 70%;
     }
 
     #hero img {
