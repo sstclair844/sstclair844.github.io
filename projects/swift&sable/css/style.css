@@ -204,14 +204,14 @@ h4 {
     margin: 14px;
 }
 
-#logo {
+#mystic {
     display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
     margin-top: 10px;
 }
 
-#logo img {
+#mystic img {
     object-fit: cover;
     width: 1050px;
 }
