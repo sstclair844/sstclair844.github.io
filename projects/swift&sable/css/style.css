@@ -17,7 +17,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/darker-hero.svg");
+    background-image: url("../images/new\ hero_1.svg");
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -30,6 +30,7 @@ body {
 #hero img {
     width: 300px;
     padding-top: 30px;
+    margin-bottom: 0px;
 }
 
 #hero h3 {
@@ -203,6 +204,18 @@ h4 {
     margin: 14px;
 }
 
+#logo {
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#logo img {
+    object-fit: cover;
+    width: 1050px;
+}
+
 #layout-2 {
     max-width: 1200px;
     margin: 10px auto;
@@ -305,6 +318,12 @@ video {
     margin: 50px;
 }
 
+#resume {
+    width: 75%;
+    display: flex;
+    margin: 0px auto;
+}
+
 @media screen and (max-width: 1400px) {
     #main-body {
         margin: auto;
@@ -320,7 +339,7 @@ video {
     }
 }
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1100px) {
     #hero,
     .anchors,
     #layout-3 a,
@@ -339,7 +358,11 @@ video {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-    }   
+    } 
+    
+     #hero{
+        background-image: none;
+    } 
 
     #about-me .portrait {
         width: 100%;
@@ -365,7 +388,8 @@ video {
 
 @media screen and (max-width: 950px) {
     .posters img,
-    .books img {
+    .books img,
+    #logo img {
         width: 75%;
         margin-left: 10px;
     }
@@ -411,11 +435,11 @@ video {
 
 @media screen and (max-width: 670px) {
     .posters img,
-    .books img,
-    #logo {
+    .books img {
         width: 75%;
         flex-direction: column;
     }
+
 
     #bottom-logo {
         width: 100%;
@@ -456,12 +480,17 @@ video {
         width: 50%;
     }
 
+    #mystic img {
+        width: 65%;
+        margin: 0px 36px;
+    }
+
     video {
         width: 80%;
     }
 
-    .ads {
-        Width: 80%;
+    .ads img{
+        Width: 70%;
         
     }
 
