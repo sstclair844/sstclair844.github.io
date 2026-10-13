@@ -77,24 +77,25 @@ body {
 #about-me {
     display: flex;
     max-width: 1200px;
-    margin: 0px auto;
+    margin: 10px auto;
     align-items: center;
 }
 
 #about-me .paragraph {
     border: 2px solid #b08a59;
     margin-right: 100px;
-    margin-top: 20px;
-    align-items: top;
-    padding-bottom: 20px;
+    align-items: flex-end;
+    padding: 0px 50px;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    margin-top: 15px;
 }
 
 #hello {
-    padding: 14px 50px;
     text-align: center;
     color: #471113;
     font-size: 18px;
-    margin-top: 5px;
+    padding-top: 20px;
 }
 
 .paragraph a {
@@ -105,13 +106,14 @@ body {
 
 .paragraph h5 {
     margin-top: 0px;
-    padding-top: 36px;
+    padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 #about-me .portrait {
     width: 200%;
     background-color: #471113;
-    padding: 25px 30px;
+    padding: 26px 30px;
     padding-bottom: 10px;
     margin-top: 20px;
 }
