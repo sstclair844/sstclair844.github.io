@@ -218,6 +218,18 @@ h4 {
     width: 1050px;
 }
 
+#figma {
+    display: inline-block;
+    padding: 2px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+#figma img {
+    object-fit: cover;
+    width: 1050px;
+}
+
 #layout-2 {
     max-width: 1200px;
     margin: 10px auto;
@@ -484,6 +496,11 @@ video {
 
     #mystic img {
         width: 65%;
+        margin: 0px 36px;
+    }
+
+    #figma img {
+        width: 70%;
         margin: 0px 36px;
     }
 
