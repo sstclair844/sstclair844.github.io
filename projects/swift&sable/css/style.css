@@ -221,6 +221,7 @@ h4 {
 #figma {
     display: inline-block;
     padding: 2px;
+    padding-top: 20px;
     margin-bottom: 50px;
     margin-top: 10px;
 }
@@ -324,18 +325,21 @@ video {
     display: flex;
     justify-content: center;
     background-color: #efe9e0;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 #bottom-logo img {
     width: 600px;
-    padding: 50px;
+    padding-top: 50px;
+    margin-bottom: 0px;
     margin: 50px;
 }
 
-#resume {
-    width: 75%;
-    display: flex;
-    margin: 0px auto;
+#bottom-logo p {
+    margin-top: 0px;
+    padding-bottom: 24px;
 }
 
 @media screen and (max-width: 1400px) {
