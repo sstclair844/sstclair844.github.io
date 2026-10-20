@@ -98,12 +98,6 @@ body {
     padding-top: 20px;
 }
 
-.paragraph a {
-    color: #471113;
-    font-family: "Abril Fatface", serif;
-    font-size: 36px;
-}
-
 .paragraph h5 {
     margin-top: 0px;
     padding-top: 50px;
@@ -169,7 +163,7 @@ h4 {
     display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .campaign img {
@@ -189,28 +183,28 @@ h4 {
 .posters img {
     object-fit: cover;
     width: 500px;
-    height: auto;
     margin: 10px;
+    margin-top: 20px;
 }
 
 .books {
     display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .books img {
     object-fit: cover;
     width: 500px;
-    margin: 14px;
+    margin: 0px 14px;
 }
 
 #mystic {
     display: inline-block;
     padding: 2px;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 #mystic img {
@@ -223,7 +217,7 @@ h4 {
     padding: 2px;
     padding-top: 20px;
     margin-bottom: 50px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 #figma img {
@@ -272,11 +266,13 @@ h4 {
 .print-web {
     columns: 2 auto;
     max-width: 1150px;
-    margin: 10px 50px;
+    margin: 0px 50px;
+    margin-top: 10px;
 }
 
 .print-web img {
     width: 100%;
+    padding: 5px 0px;
 }
 
 #sites {
@@ -287,7 +283,7 @@ h4 {
 
 #sites img {
     width: 300px;
-    margin: 36px;
+    margin: 20px 36px;
 }
 
 #layout-3 {
@@ -301,7 +297,6 @@ h4 {
 #video video {
     background-color: #efe9e0;
     padding: 0px 12px;
-    padding-top: 0px;
 }
 
 #video {
@@ -309,6 +304,7 @@ h4 {
     margin: 0px 130px;
     display: flex;
     justify-content: center;
+    margin-top: 0px;
 }
 
 #credits {
@@ -421,7 +417,6 @@ h4 {
     .ads img {
         height: auto;
         flex-direction: column;
-        
     }
 
     video {
@@ -516,11 +511,12 @@ h4 {
 
     video {
         width: 80%;
+        padding: 20px 12px;
+        height: 150px;
     }
 
     .ads img{
         Width: 70%;
-        
     }
 
     .print-web {
@@ -558,5 +554,13 @@ h4 {
 
     #hero {
         height: 500px;
+    }
+
+    #bottom-logo {
+        padding: 0px 24px;
+    }
+
+    #disclaimer {
+        text-align: center;
     }
 }
