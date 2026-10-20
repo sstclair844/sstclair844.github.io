@@ -298,16 +298,22 @@ h4 {
     margin: 50px 15px;
 }
 
-video {
+#video video {
     background-color: #efe9e0;
-    padding: 12px 0px;
+    padding: 0px 12px;
+    padding-top: 0px;
 }
 
 #video {
     background-color: #efe9e0;
-    margin: 24px 130px;
+    margin: 0px 130px;
     display: flex;
     justify-content: center;
+}
+
+#credits {
+    color: #471113;
+    text-align: center;
 }
 
 .return a {
