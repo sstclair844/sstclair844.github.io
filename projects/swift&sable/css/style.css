@@ -8,7 +8,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
-    background-color: #471113;
+    background-color: #1b120a;
 }
 
 #main-body {
@@ -17,7 +17,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/new\ hero_1.svg");
+    background-image: url("../images/cream.svg");
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -34,11 +34,14 @@ body {
 }
 
 #hero h3 {
-    font-size: 48px;
+    font-size: 38px;
     margin-right: 5px;
     font-family: "Abril Fatface", serif;
     color: #b08a59;
     margin-top: 0px;
+    background-color: #efe9e0;
+    padding-top: 0px;
+    padding-bottom: 5px;
 }
 
 .anchors {
@@ -51,7 +54,7 @@ body {
     padding: 8px 40px;
     text-decoration: none;
     background-color: #b08a59;
-    color: #471113;
+    color: #1b120a;
     font-size: 24px;
     font-weight: bold;
     margin: 50px 40px;
@@ -70,7 +73,7 @@ body {
 #layout h5 {
     font-size: 36px;
     font-family: "Abril Fatface", serif;
-    color: #471113;
+    color: #1b120a;
     margin-bottom: 0px;
 }
 
@@ -93,7 +96,7 @@ body {
 
 #hello {
     text-align: center;
-    color: #471113;
+    color: #1b120a;
     font-size: 18px;
     padding-top: 20px;
 }
@@ -106,7 +109,7 @@ body {
 
 #about-me .portrait {
     width: 200%;
-    background-color: #471113;
+    background-color: #1b120a;
     padding: 26px 30px;
     padding-bottom: 10px;
     margin-top: 20px;
@@ -124,7 +127,7 @@ body {
     margin: 24px 100px;
     padding: 50px 100px;
     font-size: 18px;
-    color: #471113;
+    color: #1b120a;
 }
 
 h2 {
@@ -145,14 +148,14 @@ h3 {
     font-size: 48px;
     margin-bottom: 70px;
     margin-top: 70px;
-    background-color: #471113;
+    background-color: #1b120a;
     padding: 10px;
 }
 
 h4 {
     font-size: 24px;
     font-family: "Abril Fatface", serif;
-    color: #471113;
+    color: #1b120a;
     margin: 0px;
     padding-bottom: 0px;  
     text-decoration: underline;
@@ -230,7 +233,7 @@ h4 {
     margin: 10px auto;
     text-align: center;
     padding: 24px;
-    background-color: #471113;
+    background-color: #1b120a;
     display: flex;
     flex-direction: column;
 }
@@ -308,7 +311,7 @@ h4 {
 }
 
 #credits {
-    color: #471113;
+    color: #1b120a;
     text-align: center;
 }
 
