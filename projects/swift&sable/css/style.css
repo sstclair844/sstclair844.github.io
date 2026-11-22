@@ -17,7 +17,7 @@ body {
 }
 
 #hero {
-    background-image: url("../images/cream.svg");
+    background-color: #efe9e0;
     height: 400px;
     background-size: cover;
     background-position: center center;
@@ -28,8 +28,8 @@ body {
 }
 
 #hero img {
-    width: 300px;
-    padding-top: 30px;
+    width: 800px;
+    padding-top: 120px;
     margin-bottom: 0px;
 }
 
@@ -41,7 +41,6 @@ body {
     margin-top: 0px;
     background-color: #efe9e0;
     padding-top: 0px;
-    padding-bottom: 5px;
 }
 
 .anchors {
